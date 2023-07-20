@@ -1,0 +1,326 @@
+<div class="background-image">
+  <mat-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel></ng-template>
+        <!-- video.component.html -->
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Foto Mais Engraçada</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="firstCtrl">
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/foto_mais_engracada/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/foto_mais_engracada/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/foto_mais_engracada/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/foto_mais_engracada/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/foto_mais_engracada/5.JPG">
+              </mat-radio-button>´
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/foto_mais_engracada/6.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="7"><img class="child-box1" src="/assets/foto_mais_engracada/7.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="8"><img class="child-box1" src="/assets/foto_mais_engracada/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/foto_mais_engracada/9.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="10"><img class="child-box1" src="/assets/foto_mais_engracada/10.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="11"><img class="child-box1" src="/assets/foto_mais_engracada/11.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="12"><img class="child-box1" src="/assets/foto_mais_engracada/12.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup" label="">
+      <form [formGroup]="secondFormGroup">
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Momento Mais Memorável</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="secondCtrl">
+
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/mais_memoravel/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/mais_memoravel/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/mais_memoravel/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/mais_memoravel/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/mais_memoravel/5.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/mais_memoravel/6.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="7"><img class="child-box1" src="/assets/mais_memoravel/7.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="8"><img class="child-box1" src="/assets/mais_memoravel/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/mais_memoravel/9.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Anterior</button>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="thirdFormGroup" label="">
+      <form [formGroup]="thirdFormGroup">
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Melhor refeição</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="thirdCtrl">
+
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/MELHOR_REFEICAO/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/MELHOR_REFEICAO/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/MELHOR_REFEICAO/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/MELHOR_REFEICAO/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/MELHOR_REFEICAO/5.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/MELHOR_REFEICAO/6.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="7"><img class="child-box1" src="/assets/MELHOR_REFEICAO/7.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="8"><img class="child-box1" src="/assets/MELHOR_REFEICAO/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/MELHOR_REFEICAO/9.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="10"><img class="child-box1" src="/assets/MELHOR_REFEICAO/10.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="12"><img class="child-box1" src="/assets/MELHOR_REFEICAO/12.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="13"><img class="child-box1" src="/assets/MELHOR_REFEICAO/13.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="14"><img class="child-box1" src="/assets/MELHOR_REFEICAO/14.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="15"><img class="child-box1" src="/assets/MELHOR_REFEICAO/15.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="16"><img class="child-box1" src="/assets/MELHOR_REFEICAO/16.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="17"><img class="child-box1" src="/assets/MELHOR_REFEICAO/17.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="18"><img class="child-box1" src="/assets/MELHOR_REFEICAO/18.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="19"><img class="child-box1" src="/assets/MELHOR_REFEICAO/19.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Anterior</button>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="fourthFormGroup" label="">
+      <form [formGroup]="fourthFormGroup">
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Melhor selfie</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="fourthCtrl">
+
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/melhor_selfie/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/melhor_selfie/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/melhor_selfie/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/melhor_selfie/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/melhor_selfie/5.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="7"><img class="child-box1" src="/assets/melhor_selfie/7.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="8"><img class="child-box1" src="/assets/melhor_selfie/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/melhor_selfie/9.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="10"><img class="child-box1" src="/assets/melhor_selfie/10.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Anterior</button>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="fifthFormGroup" label="">
+      <form [formGroup]="fifthFormGroup">
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Melhor momento com animais</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="fifthCtrl">
+
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/melhor_animal/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/melhor_animal/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/melhor_animal/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/melhor_animal/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/melhor_animal/5.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/melhor_animal/7.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/melhor_animal/7.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/melhor_animal/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/melhor_animal/9.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Anterior</button>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+
+    <mat-step [stepControl]="sixthFormGroup" label="">
+      <form [formGroup]="sixthFormGroup">
+        <div class="container">
+          <h1>S&J</h1>
+          <h2>Maior loucura</h2>
+        </div>
+        <div class="container">
+          <mat-radio-group formControlName="sixthCtrl">
+
+            <div class="parent">
+              <mat-radio-button value="1"><img class="child-box1" src="/assets/maior_loucura/1.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="2"><img class="child-box1" src="/assets/maior_loucura/2.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="3"><img class="child-box1" src="/assets/maior_loucura/3.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="4"><img class="child-box1" src="/assets/maior_loucura/4.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="5"><img class="child-box1" src="/assets/maior_loucura/5.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="6"><img class="child-box1" src="/assets/maior_loucura/7.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="7"><img class="child-box1" src="/assets/maior_loucura/7.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="8"><img class="child-box1" src="/assets/maior_loucura/8.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="9"><img class="child-box1" src="/assets/maior_loucura/9.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="11"><img class="child-box1" src="/assets/maior_loucura/11.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="12"><img class="child-box1" src="/assets/maior_loucura/12.JPG">
+              </mat-radio-button>
+              <mat-radio-button value="13"><img class="child-box1" src="/assets/maior_loucura/13.JPG">
+              </mat-radio-button>
+            </div>
+            <div class="parent">
+              <mat-radio-button value="14"><img class="child-box1" src="/assets/maior_loucura/14.JPG">
+              </mat-radio-button>
+            </div>
+          </mat-radio-group>
+
+        </div>
+        <div>
+          <button mat-raised-button color="primary" matStepperPrevious>Anterior</button>
+          <button mat-raised-button color="primary" matStepperNext>Próximo</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel></ng-template>
+      <h1>Os melhores momentos são contigo!</h1>
+      <div class="parent">
+        <div class="margin-right"><h2>Foto mais engraçada</h2><img class="child-box2" [src]="maisengracada"></div>
+        <div><h2>Momento mais memorável</h2><img class="child-box2" [src]="maismemoravel"></div>
+      </div>
+      <div class="parent">
+        <div class="margin-right"><h2>Melhor refeição</h2><img class="child-box2" [src]="melhorrefeicao"></div>
+        <div><h2>Melhor selfie</h2><img class="child-box2" [src]="melhorselfie"></div>
+      </div>
+      <div class="parent">
+        <div class="margin-right"><h2>Melhor animal</h2><img class="child-box2" [src]="melhoranimal"></div>
+        <div><h2>Maior loucura</h2><img class="child-box2" [src]="maiorloucura"></div>
+      </div>
+      <div>
+        <button mat-raised-button  color="primary" matStepperPrevious>Voltar</button>
+        <button mat-raised-button color="primary" (click)="stepper.reset()">Recomeçar</button>
+      </div>
+    </mat-step>
+  </mat-stepper>
+</div>

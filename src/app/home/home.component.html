@@ -1,0 +1,19 @@
+<!-- video.component.html -->
+<div class="background-image">
+  <span class="random">DMA</span>
+
+  <div class="container">
+    <h1>S&J</h1>
+    <h2>Our Moments</h2>
+  </div>
+
+  <form (ngSubmit)="submitForm()">
+    <input type="text" [(ngModel)]="inputValue" name="videoCode" placeholder="Introduzir código">
+    <button class="btn" type="submit">Ver</button>
+  </form>
+
+  <div *ngIf="showVideo">
+    <p class="error-message">Não é essa a password baby! Está relacionada com a data de hoje. Apenas números.</p>
+  </div>
+</div>
+
