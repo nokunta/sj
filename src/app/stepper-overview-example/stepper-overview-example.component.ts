@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
   styleUrls: ['stepper-overview-example.component.scss'],
 })
 export class StepperOverviewExample {
+  prenda=false;
   firstFormGroup = this._formBuilder.group({
     firstCtrl: [false, Validators.required],
   });
@@ -57,6 +58,10 @@ export class StepperOverviewExample {
   }
 
   get maiorloucura(){
-    return `assets/melhor_animal/${this.sixthFormGroup.value.sixthCtrl}.JPG`
+    return `assets/maior_loucura/${this.sixthFormGroup.value.sixthCtrl}.JPG`
+  }
+
+  prendafunc(){
+    this.prenda=true;
   }
 }

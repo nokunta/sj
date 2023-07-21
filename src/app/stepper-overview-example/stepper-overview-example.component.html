@@ -318,6 +318,15 @@
       <div>
         <button mat-raised-button  color="primary" matStepperPrevious>Voltar</button>
         <button mat-raised-button color="primary" (click)="stepper.reset()">Recomeçar</button>
+
+        <button mat-raised-button color="primary" (click)="prendafunc()">Uma última prenda</button>
+        <div>
+          <img class="child-box2" [hidden]="!prenda" src="assets/prenda.png">
+          <a [hidden]="!prenda" target=”_blank” href="https://www.youtube.com/shorts/CW617PtpFNw"><h2>recordação 1</h2></a>
+          <a [hidden]="!prenda" target=”_blank” href="https://www.youtube.com/shorts/MNMy3wT6zWw"><h2>recordação 2</h2></a>
+          <a [hidden]="!prenda" target=”_blank” href="https://www.youtube.com/shorts/qNNV_ym68cQ"><h2>recordação 3</h2></a>
+        </div>
+
       </div>
     </mat-step>
   </mat-stepper>
