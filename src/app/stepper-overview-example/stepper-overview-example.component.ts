@@ -37,26 +37,26 @@ export class StepperOverviewExample {
   constructor(private _formBuilder: FormBuilder) {}
 
   get maisengracada(){
-    return `/assets/foto_mais_engracada/${this.firstFormGroup.value.firstCtrl}.JPG`
+    return `assets/foto_mais_engracada/${this.firstFormGroup.value.firstCtrl}.JPG`
   }
 
   get maismemoravel(){
-    return `/assets/mais_memoravel/${this.secondFormGroup.value.secondCtrl}.JPG`
+    return `assets/mais_memoravel/${this.secondFormGroup.value.secondCtrl}.JPG`
   }
 
   get melhorrefeicao(){
-    return `/assets/MELHOR_REFEICAO/${this.thirdFormGroup.value.thirdCtrl}.JPG`
+    return `assets/MELHOR_REFEICAO/${this.thirdFormGroup.value.thirdCtrl}.JPG`
   }
 
   get melhorselfie(){
-    return `/assets/melhor_selfie/${this.fourthFormGroup.value.fourthCtrl}.JPG`
+    return `assets/melhor_selfie/${this.fourthFormGroup.value.fourthCtrl}.JPG`
   }
 
   get melhoranimal(){
-    return `/assets/melhor_animal/${this.fifthFormGroup.value.fifthCtrl}.JPG`
+    return `assets/melhor_animal/${this.fifthFormGroup.value.fifthCtrl}.JPG`
   }
 
   get maiorloucura(){
-    return `/assets/melhor_animal/${this.sixthFormGroup.value.sixthCtrl}.JPG`
+    return `assets/melhor_animal/${this.sixthFormGroup.value.sixthCtrl}.JPG`
   }
 }
